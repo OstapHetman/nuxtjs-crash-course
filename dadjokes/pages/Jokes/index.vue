@@ -1,8 +1,6 @@
 <template>
   <div class="container">
-    <div class="row">
-      <h1>Welcome to my App !</h1>
-    </div>
+    <h1>Jokes</h1>
   </div>
 </template>
 
@@ -10,7 +8,7 @@
 export default {
   head() {
     return {
-      title: "Welcome to my App!",
+      title: "Dad Jokes!",
       meta: [
         {
           hid: "description",
@@ -23,4 +21,5 @@ export default {
 };
 </script>
 
-
+<style>
+</style>

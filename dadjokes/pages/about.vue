@@ -1,7 +1,8 @@
 <template>
   <div class="container">
     <div class="row">
-      <h1>Welcome to my App !</h1>
+      <h1>About DadJokes</h1>
+      <p>This is an app that displays corny dad jokes.</p>
     </div>
   </div>
 </template>
@@ -10,7 +11,7 @@
 export default {
   head() {
     return {
-      title: "Welcome to my App!",
+      title: "About The App!",
       meta: [
         {
           hid: "description",
@@ -23,4 +24,5 @@ export default {
 };
 </script>
 
-
+<style>
+</style>
